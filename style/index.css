@@ -24,7 +24,7 @@
 
 /* nav seciton start */
 header {
-    background: url(../images/developer.png), url(/images/header_bg.png), var(--cream);
+    background: url(../images/developer.png), url(../images/header_bg.png), var(--cream);
     background-repeat: no-repeat;
     background-position: 27px 10px, bottom right;
 }
