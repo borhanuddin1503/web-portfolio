@@ -146,6 +146,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
+    margin-top: 30px;
 }
 
 .about_item_title {
@@ -191,7 +192,45 @@ nav ul li a:hover {
     line-height: 1.5;
 }
 
+/* resume section start */
+.parent_resume{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 114px;
+    gap: 20px;
+}
+.collumn_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--dark2);
+}
+.resume_discribe{
+    max-width: 512px;
+}
 
+.resume_discribe-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin: 30px 0 10px 0;
+}
+.resume_discribe h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark3);
+}
+
+.resume_description{
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--dark3);
+    margin: 20px 0 30px;
+
+}
+.resume_btn{
+    text-align: center;
+    margin-top: 20px;
+}
 
 
 
