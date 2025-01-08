@@ -233,6 +233,40 @@ nav ul li a:hover {
 }
 
 
+/* footer */
+footer{
+    padding: 130px 230px;
+    background: var(--cream);
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+    margin: 110px 0 0 0;
+}
+footer h1.section_title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.footer_description{
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--dark2);
+    margin-bottom: 30px;
+}
+.footer_icon_wrapper img{
+    width: 24px;
+    margin-right: 24px;
+}
+
+footer input[type="text"],footer input[type="email"], footer textarea{
+    width: 100%;
+    padding: 18px 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: 24px;
+}
+
 
 
 
