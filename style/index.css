@@ -353,3 +353,46 @@ section {
         text-align: center;
     }
 }
+
+@media screen and (max-width:992px) and (min-width:576px){
+     .banner , nav{
+        margin: 0;
+        padding: 20px;
+     }
+     .banner{
+        flex-direction: column;
+        gap: 50px;
+     }
+     header{
+        background-image: url(../images/developer.png);
+        background-size: auto 100%;
+     }
+     section{
+        margin:50px 0;
+        padding: 20px;
+     }
+
+     .about{
+        padding: 20px;
+     }
+
+     .skill_card_wrappers{
+        flex-wrap: wrap;
+
+     }
+     .skill_card_wrappers .card{
+        width: calc(50% - 12px);
+     }
+     footer{
+        padding: 20px;
+        gap: 40px;
+        flex-direction: column;
+     }
+
+     .footer_column{
+        text-align: center;
+     }
+     footer h1.section_title{
+        text-align: center;
+     }
+}
